@@ -1,4 +1,4 @@
-
+/** Copy task - pure JS **/
 var uncheck = function(element){
     document.getElementById(element).classList.remove("checkboxWidget--checked");
     document.getElementById(element).classList.add("checkboxWidget--unchecked");
