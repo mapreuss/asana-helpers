@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Copy this task",
+  "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://app.asana.com/*"],
+      "js": ["jquery-3.2.1.min.js", "content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "images/19x19.png",
+      "38": "images/38x38.png"
+    }
+  },
+  "permissions": [
+    "tabs", "https://app.asana.com/*"
+  ]
+}

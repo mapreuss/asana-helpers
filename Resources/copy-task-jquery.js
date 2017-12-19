@@ -27,4 +27,4 @@ check("#duplicate_object_option_followers");
 check("#duplicate_object_option_projects");
 check("#duplicate_object_option_parent_task");
 
-$("$duplicate_object_dialog_submit").click();
+// $("#duplicate_object_dialog_submit").click();
